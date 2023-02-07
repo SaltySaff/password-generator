@@ -3,6 +3,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passwordOne = document.getElementById("password-one")
 let passwordTwo = document.getElementById("password-two")
+let password = document.getElementsByClassName('password')
 passwordLength = 15
 
 function randomChar() {
